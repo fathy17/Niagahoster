@@ -2493,7 +2493,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    fetch("http://127.0.0.1:8000/api").then(function (res) {
+    fetch("/api").then(function (res) {
       return res.json();
     }).then(function (data) {
       _this.packages = data;
