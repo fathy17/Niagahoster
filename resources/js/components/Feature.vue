@@ -130,7 +130,7 @@
         </div>
       </div>
       <div class="col-sm-12 col-lg-6 order-1 order-sm-2 order-lg-2">
-        <img src="../../assets/images/Image support.png" alt />
+        <img class="modul" src="../../assets/images/Image support.png" alt />
       </div>
     </div>
   </div>
