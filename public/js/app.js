@@ -39091,6 +39091,7 @@ var staticRenderFns = [
           { staticClass: "col-sm-12 col-lg-6 order-1 order-sm-2 order-lg-2" },
           [
             _c("img", {
+              staticClass: "modul",
               attrs: {
                 src: __webpack_require__(/*! ../../assets/images/Image support.png */ "./resources/assets/images/Image support.png"),
                 alt: ""
