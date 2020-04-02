@@ -5,8 +5,8 @@
       <Intro />
       <Package />
       <Feature />
-      <Footer />
     </div>
+    <Footer />
   </div>
 </template>
 

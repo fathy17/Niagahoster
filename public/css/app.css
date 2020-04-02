@@ -10881,6 +10881,10 @@ a.text-dark:focus {
   color: #4c4c4c;
 }
 
+body {
+  padding-top: 90px !important;
+}
+
 h1,
 h2,
 h3,
@@ -10904,5 +10908,11 @@ p {
   width: 100%;
   border-bottom: 1px solid #c7c7c7;
   border-top: 1px solid #c7c7c7;
+}
+
+.modul {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 

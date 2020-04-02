@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-sm-12 col-lg-6">
-        <h1 class="font-weight-bold mb-4">PHP Hosting</h1>
+      <div class="col-sm-12 col-lg-6 order-2 order-sm-1 order-lg-1">
+        <h1 class="font-weight-bold mb-4 mt-4">PHP Hosting</h1>
         <h2>Cepat, handal, penuh dengan modul yang anda butuhkan</h2>
         <div class="mt-4">
           <p class="mb-3">
@@ -23,26 +23,26 @@
           </p>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-6">
+      <div class="col-sm-12 col-lg-6 order-1 order-sm-2 order-mlg-2">
         <img src="../../assets/svg/illustration banner PHP hosting-01.svg" alt />
       </div>
     </div>
-    <div class="row mt-5 align-items-center justify">
+    <div class="row mt-5">
       <div class="col-sm-12 col-lg-4">
-        <div class="text-center">
-          <img src="../../assets/svg/icon PHP Hosting_zendguard.svg" alt />
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <img class="flex-grow-1" src="../../assets/svg/icon PHP Hosting_zendguard.svg" alt />
           <p>PHP Zend Guard Loader</p>
         </div>
       </div>
       <div class="col-sm-12 col-lg-4">
-        <div class="text-center">
-          <img src="../../assets/svg/icon PHP Hosting_composer.svg" alt />
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <img class="flex-grow-1" src="../../assets/svg/icon PHP Hosting_composer.svg" alt />
           <p>PHP Composer</p>
         </div>
       </div>
       <div class="col-sm-12 col-lg-4">
-        <div class="text-center">
-          <img src="../../assets/svg/icon PHP Hosting_ioncube.svg" alt />
+        <div class="d-flex flex-column align-items-center justify-content-center">
+          <img class="flex-grow-1" src="../../assets/svg/icon PHP Hosting_ioncube.svg" alt />
           <p>PHP IonCube Loader</p>
         </div>
       </div>
@@ -60,5 +60,9 @@ export default {
 p img {
   width: 16px;
   color: #00b348;
+}
+
+.d-flex {
+  height: 100%;
 }
 </style>

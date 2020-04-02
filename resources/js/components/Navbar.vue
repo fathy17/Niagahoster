@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar-container">
+  <div class="navbar-container fixed-top">
     <nav class="container navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
         <img style="height:60px" src="../../assets/svg/niagahoster-logo.png" alt="logo" />
@@ -49,5 +49,8 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+.navbar-container {
+  background-color: #f8fafc;
+}
 </style>
